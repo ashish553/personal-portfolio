@@ -1,5 +1,5 @@
-import codecollab from '../assets/one.jpg'
-import dappVoting from '../assets/two.jpg'
+import codecollab from '../assets/one.JPG'
+import dappVoting from '../assets/two.JPG'
 
 const projectsData = [
     {
