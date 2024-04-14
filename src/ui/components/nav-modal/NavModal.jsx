@@ -1,6 +1,7 @@
 import { SocialMedia } from '../socialmedia/SocialMedia';
 import { Link, animateScroll as scroll } from "react-scroll";
 import './NavModal.css'
+import resume from '../../../assets/resume.pdf'
 
 export const NavModal = ({ handleNavModal }) => {
 
@@ -37,6 +38,13 @@ export const NavModal = ({ handleNavModal }) => {
             )
           })
           }
+          <li className={`modal-link modal-item`}>
+            <a href={ resume } target="_blank">
+              <span className="link" onClick={ handleNavModal }>
+                Resume
+              </span>
+            </a>
+          </li>
         </ul>
         <div className={`social-media-container modal-item`}>
           <SocialMedia />
