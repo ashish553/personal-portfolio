@@ -9,15 +9,18 @@ export const About = () => {
     {name: 'ReactJs'},
     {name: 'VueJs'},
     {name: 'NextJs'},
-    {name: 'Bootstrap'},
+    {name: 'Tailwind'},
     {name: 'SASS'},
+    {name: 'Bootstrap'},
   ]
   const stackList2 = [
     {name: 'JavaScript'},
+    {name: 'JWT'},
     {name: 'CSS3'},
     {name: 'HTML5'},
     {name: 'Contentful'},
     {name: 'Git'},
+
   ]
    
   return (

@@ -1,5 +1,6 @@
 import codecollab from '../assets/codecollab.jpg'
 import dappVoting from '../assets/dapp.jpg'
+import nxtblog from '../assets/nxtblog.png'
 
 const projectsData = [
     {
@@ -19,6 +20,15 @@ const projectsData = [
         technologies: "React / EthersJS / SCSS",
         repo_link: "https://github.com/ashish553/dapp-voting",
         url: "https://dapp-voting-eight.vercel.app/",
+    },
+    {
+        name: "Blogging Webapp",
+        img: nxtblog,
+        description:
+            "Built a modern blogging platform with ReactJs and NextJs, featuring secure authentication via JWT. Styled with Tailwind CSS for a responsive design, the site allows users to sign up, create, and publish blog posts easily with an intuitive interface.",
+        technologies: "React / NextJS / TailwindCSS",
+        repo_link: "https://github.com/ashish553/nxtblog",
+        url: "https://blog-app-iota-jet.vercel.app/",
     },
 ];
   
